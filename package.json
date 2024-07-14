@@ -1,8 +1,9 @@
 {
   "scripts": {
-  "build": "postcss output.css -o build/output.css"
-},
+    "build": "postcss output.css -o build/output.css"
+  },
   "devDependencies": {
+    "postcss-cli": "^11.0.0",
     "tailwindcss": "^3.4.4"
   },
   "dependencies": {
