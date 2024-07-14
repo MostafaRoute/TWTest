@@ -1,6 +1,7 @@
 {
   "scripts": {
-  },
+  "build": "postcss output.css -o build/output.css"
+},
   "devDependencies": {
     "tailwindcss": "^3.4.4"
   },
